@@ -1,0 +1,40 @@
+{
+    "id": "dark-heresy-2e-gm-support",
+    "title": "Dark Heresy 2e GM Support",
+    "description": "A Dark Heresy 2e module that should make the life of GMs a little easier",
+    "version": "0.0.1",
+    "compatibility": {
+        "minimum": "12",
+        "verified": "12"
+    },
+    "relationships": {
+        "systems": [
+            {
+                "id": "dark-heresy",
+                "type": "system",
+                "compatibility": {}
+            }
+        ]
+    },
+    "authors": [
+        {
+            "name": "Stexinator",
+            "discord": "Stexinator",
+            "flags": {}
+        }
+    ],
+    "esmodules": ["scripts/hooks.js"],
+    "languages": [
+        {
+            "lang": "en",
+            "name": "English",
+            "path": "languages/en.json",
+            "flags": {}
+        }
+    ],
+
+    "download": "",
+    "manifest": "",
+    "url": "https://github.com/Stexinator/dark-heresy-2e-gm-support",
+    "readme": "README.md"
+}
