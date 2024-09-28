@@ -1,4 +1,4 @@
-export default class DarkHeresy2ePerilsInTheWarp {
+export default class DarkHeresy2ePsy {
     static async perils(message) {
         let psy = message.getFlag('dark-heresy', 'rollData').psy;
 

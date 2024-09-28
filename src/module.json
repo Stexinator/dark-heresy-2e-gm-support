@@ -2,7 +2,7 @@
     "id": "dark-heresy-2e-gm-support",
     "title": "Dark Heresy 2e GM Support",
     "description": "A Dark Heresy 2e module that should make the life of GMs a little easier",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "compatibility": {
         "minimum": "12",
         "verified": "12"
