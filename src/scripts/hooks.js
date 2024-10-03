@@ -8,7 +8,10 @@ Hooks.on('createChatMessage', async function (message, html) {
         DarkHeresy2eCriticalEffect.outputEffectToChat(message);
     }
 
-    if (message.getFlag('dark-heresy', 'rollData')?.psy?.hasPhenomena) {
+    if (
+        message.getFlag('dark-heresy', 'rollData')?.psy?.hasPhenomena &&
+        message.getFlag('dark-heresy', 'rollData')?.psy?.display
+    ) {
         DarkHeresy2ePsy.perils(message);
     }
 });
