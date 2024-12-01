@@ -1,5 +1,7 @@
 # Dark Heresy 2e GM Support
 
+I switched to Imperium Maledictum. If you want to take this over shoot me a message.
+
 This module is meant to reduce some workload for GMs.
 
 At this time it can:
